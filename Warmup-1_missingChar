@@ -1,0 +1,9 @@
+public String missingChar(String str, int n) {
+  String s="";
+  for(int i=0;i<=str.length()-1;i++){
+    if(i!=n){
+      s+=str.charAt(i);
+    }
+  }
+  return s;
+}
